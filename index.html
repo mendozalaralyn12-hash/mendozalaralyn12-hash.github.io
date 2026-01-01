@@ -1,0 +1,184 @@
+<!DOCTYPE html> <html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Laralyn Portfolio</title> 
+
+<link rel="stylesheet" href="style.css"> 
+</head> 
+
+<body> 
+  <nav> 
+    <div class="nav-left"><strong>Laralyn</strong></div>
+    <div class="nav-center"> 
+      <a href="#home">Home</a> 
+      <a href="#about">About</a> 
+      <a href="#skills">Skills</a> 
+      <a href="#projects">Projects</a> 
+      <a href="#contact">Contact</a> 
+    </div>
+
+    <div class="nav-right">
+      <button id="themeBtn">☀</button>
+    </div>
+
+  </nav>
+
+  <section id="home">
+  <div class="home-top">
+    <div class="big-photo">
+      <img src="Images/others/e7d5e2aa-6dcc-4048-a128-6ba5367cd43d.jpg" alt="My Photo">
+    </div>
+
+    <div class="home-text">
+      <h2 class="subtitle">Hi! I'm <strong>Laralyn Mendoza</strong></h2>
+      <span class="subtitle-small">BSIT Student | Learning Tech, One Error at a Time</span>
+      <p class="welcome-text">WELCOME!</p>
+      <p class="welcome-desc">Here you'll find my skills, projects, and learn more about me.</p>
+      <p class="quote">"Eat. Sleep. Code. Panic. Cry. Fix. Repeat."</p>
+      <p>Hi! I'm Laralyn, a BSIT student learning new technologies, building projects and improving my skills.</p>
+      <button onclick="location.href='#about'">Read More…</button>
+    </div>
+  </div>
+
+    <div class="home-gallery">
+    <div class="home-photo"><img src="Images/others/482480393_1686564425630840_7277327608858349399_n.jpg" alt="Photo 1"></div>
+    <div class="home-photo"><img src="Images/others/482279354_634717069162942_5568016926654923403_n.jpg" alt="Photo 2"></div>
+    <div class="home-photo"><img src="Images/others/481708279_514565311356306_4552307310227004695_n.jpg" alt="Photo 3"></div>
+    <div class="home-photo"><img src="Images/others/482806660_994765545404637_5974202615666566684_n.jpg" alt="Photo 4"></div>
+  </div>
+</section>
+
+  <section id="about">
+  <h2>About Laralyn</h2>
+  <button id="aboutBtn" class="btn">Read More</button>
+
+  <p id="aboutText" style="display:none;">
+    Hi! I’m Laralyn Mendoza, 19 years old, currently taking up Bachelor of Science in Information Technology (BSIT), and I live in Sitio Laray, Barangay Boroc, Ormoc City. I have a deep passion for music and dance, and in my free time, I enjoy playing online games, sports (especially futsal), and traveling, especially to beaches where I can relax and enjoy the scenery. I’m someone who can vibe with anyone, making it easy for me to connect with different kinds of people, and I love anything with pearls, especially milk tea. I come from a small, loving, and supportive family. My mother, Glenda S. Mendoza, 52, is caring and always motivates me in my studies and activities. My father, Nilo P. Mendoza, 57, works as a farm guard in Ormoc Farm Incorporated and has taught me the value of perseverance and hard work. I have a sister, Shaira Mae S. Mendoza, 26, a culinary student at EVSU Ormoc, and a one-year-old nephew, Elmo Reigh P. Solano, who lives with us due to family circumstances.
+
+I am a recent graduate of Ipil National High School under the General Academic Strand, where I was a high honor student throughout my years. I actively participated in school activities, including the Campus Youth Ministry, and ran for SSLG President, which, although I did not win, helped me improve my communication skills and overcome my fear of public speaking. Some of my achievements include being a consistent high honor student, earning an NC II Certification in Customer Service (TESDA), serving as YES-O President, and being an active choir member in both school and parish.
+
+I am eager to learn, ambitious, and determined to achieve my dreams. I also have a loving, caring, and supportive boyfriend, who always encourages me, shares my dreams, and makes even the simplest moments fun and meaningful. I am grateful for my family, my experiences, and the opportunities that continue to help me grow both personally and academically. 
+Since I was a kid, I have always loved sports, music, dancing, and even online games. In elementary school, I joined various sports like volleyball, running, and basketball because I found them enjoyable and exciting.
+
+When I was in high school, someone invited me to try futsal. At that time, I had no idea what futsal was, but since I loved sports, I gave it a try. I started playing in Grade 8 and quickly fell in love with the sport. I participated in different competitions and even joined the futsal team in the EVSU intramurals.
+
+Aside from futsal, I also played basketball in high school. During a youth camp, someone encouraged me to join the basketball team. Even though I wasn’t very skilled at basketball, I still joined because I enjoyed the game.
+
+I also have a passion for dancing. I became a member of various dance clubs in Ormoc City, including The Vibe Dynasty. Through dancing, I had the opportunity to travel to different places, meet new friends, and gain valuable experiences. I even competed in several dance competitions, even though I wasn’t the best dancer.
+
+When it comes to music, I love singing even though I joke that music doesn’t love me back haha. Singing brings me joy and comfort, so I joined the choir in Ipil. I became a choir member of the Ipil National Youth Ministry and also sang for the Ipil Parish. I also love singing with friends.
+
+Aside from all these, I also enjoy playing online games in my free time. Gaming helps me relax, have fun, and even connect with friends.
+  </p>
+
+  <div class="about-cards">
+    <div class="about-card" data-card="Family">
+      <img src="Images/family/602e3049-aae2-46bb-880b-ca76bedeaacb.jpg" alt="Family Cover">
+    </div>
+    <div class="about-card" data-card="Hobbies">
+      <img src="Images/cousins/476370889_1559502401427964_4318907868005156957_n.jpg" alt="Hobbies Cover">
+    </div>
+    <div class="about-card" data-card="Partner">
+      <img src="Images/partner/94262ab1-5b30-4c00-9141-6df8a848d562.jpg" alt="Partner Cover">
+    </div>
+  </div>
+</section>
+<div id="photoModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id="modalPhotos"></div>
+  </div>
+</div>
+
+<section id="skills"> 
+  <h2>Skills</h2> 
+  
+  <div class="skill-grid"> 
+    <div class="skill-item">
+      <h3>Soft Skills</h3>
+      <p>Problem-Solving, Teamwork, Collaboration, Communication, Time Management, Adaptability</p>
+    </div> 
+    <div class="skill-item">
+      <h3>Programming Languages / Framework</h3>
+      <p>HTML, CSS, JavaScript, Python, Basic PHP</p>
+    </div> 
+    <div class="skill-item">
+      <h3>Tools I Used</h3>
+      <p>VSCode, GitHub, Linux, Postman, n8n</p>
+    </div>
+    <div class="skill-item">
+      <h3>Technical Areas</h3>
+      <p>Basic Web Development, Simple Automation, Networking, Database</p>
+    </div>
+  </div> 
+</section>
+
+  <section id="projects"> 
+  <h2>Projects</h2> 
+  <div class="project-container"> 
+
+    <div class="project-thumb">
+      <img src="Images/others/Screenshot 2025-12-31 184823.png" alt="Project Thumbnail">
+    </div>
+
+    <div class="project-buttons">
+      <button onclick="showProject('description')">Project Description</button> 
+      <button onclick="showProject('role')">Role & Contribution</button> 
+      <button onclick="showProject('tools')">Tools & Languages Used</button> 
+    </div>
+
+    <div class="project-output" id="projectOutput">
+      Click a button to view details…
+    </div>
+
+  </div>
+</section>
+  
+  <section id="contact"> 
+    <h2>Contact</h2>
+
+    <div class="contact-grid"> 
+      <form class="contact-form" id="contactForm">
+  <label>Name</label>
+  <input type="text" id="name" required />
+
+  <label>Email</label>
+  <input type="email" id="email" required />
+
+  <label>Message</label>
+  <textarea id="message" required></textarea>
+
+  <button type="submit">Send</button>
+</form>
+
+      <div> 
+        <p>Email: mendozalaralyn12@gmail.com</p>
+
+        <div class="social-links">
+  <a href="https://www.facebook.com/laralyn.solano.mendoza?mibextid=ZbWKwL" target="_blank">
+  <img src="https://freepnglogo.com/images/all_img/facebook-logo-transparent-05b6.png" alt="Facebook">
+</a>
+
+
+  <a href="https://www.instagram.com/its.larley12?igsh=MXcwb2xqZHVvcTgzaA==" target="_blank">
+  <img src="https://tse2.mm.bing.net/th/id/OIP.kIgAoVfb7NLSj3RXtLxAnAHaFj?pid=Api&P=0&h=180" alt="Instagram">
+</a>
+
+  <a href="https://github.com/mendozalaralyn12-hash" target="_blank">
+    <img src="https://pngimg.com/uploads/github/github_PNG80.png" alt="Github">
+  </a>
+</div>
+
+      </div> 
+    </div> 
+  </section> 
+  <div id="photoModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id="modalPhotos"></div>
+  </div>
+</div>
+  <script src="script.js"></script> 
+</body> 
+</html>
